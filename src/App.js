@@ -1,10 +1,11 @@
+import { CounterProvider } from "./contexts/counter-context";
 import CounterView from "./views/counter";
 
 function App() {
   return (
-    <div>
+    <CounterProvider>
       <CounterView />
-    </div>
+    </CounterProvider>
   );
 }
 

@@ -1,0 +1,19 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(235, 235, 235);
+}
+
+.counter-btn-group {
+  display: flex;
+  gap: 6px;
+}
+
+.counter-value {
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
